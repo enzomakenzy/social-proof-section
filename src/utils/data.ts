@@ -29,3 +29,9 @@ export const usersReviews: UserReview[] = [
     photo: userPhotoThree
   }
 ];
+
+export const starCardTexts: string[] = [
+  "Top 1 no Global Design Awards",
+  "Melhor App de Experiência Visual 2026",
+  "Referência em Curadoria de Arte Digital"
+];

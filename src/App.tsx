@@ -1,6 +1,6 @@
 import { StarCard } from "./components/StarCard"
 import { UserReviewCard } from "./components/UserReviewCard"
-import { usersReviews } from "./utils/users-reviews"
+import { starCardTexts, usersReviews } from "./utils/data"
 
 function App() {
   return (
@@ -9,13 +9,17 @@ function App() {
         <div className="grid grid-cols-1 gap-8 mb-12">
           <div className="flex flex-col gap-6 items-center">
             <h1 className="font-bold text-[2.4rem]/10 w-60 text-center text-primary-dark">Curadoria de arte e design digital.</h1>
-            <p className="text-body text-neutral-grayish-dark text-center">Explore as coleções mais influentes da semana, selecionadas por especialistas do mundo todo. Junte-se a uma comunidade focada em estética e inovação.</p>
+            <p className="text-body text-neutral-grayish-dark text-center">
+              Explore as coleções mais influentes da semana, selecionadas por especialistas do mundo todo. Junte-se a uma comunidade focada em estética e inovação.
+            </p>
           </div>
 
           <div className="flex flex-col gap-5">
-            <StarCard text="Top 1 no Global Design Awards" />
-            <StarCard text="Melhor App de Experiência Visual 2026" />
-            <StarCard text="Referência em Curadoria de Arte Digital" />
+            {
+              starCardTexts.map((text) => (
+                <StarCard text={text} />
+              ))
+            }
           </div>
         </div>
 

@@ -1,4 +1,4 @@
-import type { UserReview } from "../utils/users-reviews";
+import type { UserReview } from "../utils/data";
 
 export function UserReviewCard({ name, profession, review, photo }: UserReview) {
   return (
