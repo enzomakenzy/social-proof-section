@@ -31,7 +31,7 @@ export const usersReviews: UserReview[] = [
 ];
 
 export const starCardTexts: string[] = [
-  "Top 1 no Global Design Awards",
+  "Primeiro lugar no Global Design Awards",
   "Melhor App de Experiência Visual 2026",
   "Referência em Curadoria de Arte Digital"
 ];

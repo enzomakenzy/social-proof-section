@@ -10,6 +10,8 @@
   --text-body: 0.938rem;
 
   --font-base: "League Spartan", sans-serif;
+
+  --breakpoint-xs: 30rem;
 }
 
 body {
