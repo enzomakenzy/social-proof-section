@@ -1,6 +1,6 @@
 # 🌟 Curadoria de Arte - Social Proof Section
 
-![Preview do Projeto](./src/assets/social-proof.png)
+![Preview do Projeto](./src/assets/design.png)
 
 ## 📖 Sobre o Projeto
 
