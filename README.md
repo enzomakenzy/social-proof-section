@@ -8,6 +8,8 @@ Este projeto foi construído com base no desafio "Social Proof Section" do [Fron
 
 O foco principal do desenvolvimento foi criar uma interface **fluida e altamente responsiva**, garantindo a melhor experiência em qualquer tamanho de tela, além de manter um código limpo, escalável e bem componentizado.
 
+Link do projeto: <a href="https://enzomakenzy.github.io/social-proof-section">https://enzomakenzy.github.io/social-proof-section/</a>
+
 ## Tecnologias e Ferramentas
 
 - **[React](https://react.dev/)** - Biblioteca JavaScript para construção da interface.
