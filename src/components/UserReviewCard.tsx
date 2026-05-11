@@ -1,8 +1,14 @@
-import type { UserReview } from "../utils/data";
+type Props = {
+  name: string;
+  profession: string;
+  review: string;
+  photo: string;
+  className?: string;
+}
 
-export function UserReviewCard({ name, profession, review, photo }: UserReview) {
+export function UserReviewCard({ name, profession, review, photo, className }: Props) {
   return (
-    <div className="bg-primary-dark p-8 rounded-xl">
+    <div className={`bg-primary-dark p-8 rounded-xl md:w-88 lg:flex-1 lg:h-58 ${className || ""}`}>
       <div className="flex items-center mb-5 h-12 gap-4">
         <img 
           src={photo} 
